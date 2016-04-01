@@ -1,14 +1,15 @@
 {
   "name": "websocket-nats",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "websocket client for NATS, a lightweight, high-performance cloud native messaging system",
   "main": "index.js",
+  "repository": "github.com/joshglendenning/websocket-nats",
   "scripts": {
     "build": "webpack"
   },
   "author": {
-    "name": "Derek Collison",
-    "email": "derek@apcera.com"
+    "name": "Josh Glendenning",
+    "email": "josh@isobit.io"
   },
   "contributors": [
     {
