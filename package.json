@@ -1,0 +1,27 @@
+{
+  "name": "websocket-nats",
+  "version": "0.0.0",
+  "description": "websocket client for NATS, a lightweight, high-performance cloud native messaging system",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Derek Collison",
+    "email": "derek@apcera.com"
+  },
+  "contributors": [
+    {
+      "name": "Derek Collison",
+      "email": "derek@apcera.com"
+    }
+  ],
+  "browser": {
+    "net": "./lib/net-shim.js",
+    "tls": "./lib/tls-shim.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
