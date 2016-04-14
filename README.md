@@ -1,5 +1,6 @@
 # websocket-nats
 [![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT)
+
 An in-browser webscocket client for [NATS](http://nats.io/).
 
 ## Installation
