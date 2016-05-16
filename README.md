@@ -5,8 +5,14 @@ An in-browser webscocket client for [NATS](http://nats.io/).
 
 ## Installation
 
+### NPM
 ```bash
 npm install websocket-nats
+```
+
+### Bundle (for development only)
+```html
+<script type="text/javascript" src="https://raw.githubusercontent.com/joshglendenning/websocket-nats/v0.1.0/dist/bundle.js"></script>
 ```
 
 ## Prerequisites
