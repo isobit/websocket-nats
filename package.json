@@ -1,6 +1,6 @@
 {
   "name": "websocket-nats",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "websocket client for NATS, a lightweight, high-performance cloud native messaging system",
   "main": "index.js",
   "repository": "github.com/joshglendenning/websocket-nats",
