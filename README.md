@@ -10,7 +10,10 @@ An in-browser webscocket client for [NATS](http://nats.io/).
 npm install websocket-nats
 ```
 
-### Bundle (for development only)
+### Bundle
+Just download `dist/bundle.js`.
+
+For development purposes this can be loaded from github:
 ```html
 <script type="text/javascript" src="https://raw.githubusercontent.com/joshglendenning/websocket-nats/v0.1.0/dist/bundle.js"></script>
 ```
