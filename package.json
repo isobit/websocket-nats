@@ -9,28 +9,27 @@
     "nats",
     "browser"
   ],
-  "main": "index.js",
-  "repository": "github.com/joshglendenning/websocket-nats",
-  "scripts": {
-    "build": "webpack"
-  },
+  "license": "MIT",
   "author": {
     "name": "Josh Glendenning",
     "email": "josh@isobit.io"
   },
-  "contributors": [
-    {
-      "name": "Derek Collison",
-      "email": "derek@apcera.com"
-    }
-  ],
-  "browser": {
-    "net": "./lib/net-shim.js",
-    "tls": "./lib/tls-shim.js",
-    "crypto": "./lib/crypto-shim.js"
+  "main": "index.js",
+  "repository": "joshglendenning/websocket-nats",
+  "scripts": {
+    "build": "NODE_ENV=prod webpack",
+    "build-dev": "NODE_ENV=dev webpack"
   },
-  "license": "MIT",
+  "browser": {
+    "crypto": "./lib/crypto.js",
+    "net": "./lib/net.js",
+	"nuid": "./lib/nuid.js",
+	"tls": "./lib/tls.js"
+  },
   "devDependencies": {
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "url": "^0.11.0"
   }
 }
