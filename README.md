@@ -32,7 +32,7 @@ directly at your `gnatsd` instance.
 
 ```javascript
 
-var nats = require('nats').connect({url: '<url>'});
+var nats = require('nats').connect('ws://localhost:4223');
 
 // Simple Publisher
 nats.publish('foo', 'Hello World!');
@@ -125,14 +125,11 @@ proxy to use TLS properly.
 
 ## Secure Websockets
 
-Connections can be made to secure websockets by adding `wss: true` to the
-options passed to `NATS.connect`:
+Connections can be made to secure websockets by using the `wss` protocol in the
+url passed to `NATS.connect`:
 
 ```javascript
-NATS.connect({
-	uri: "nats://localhost:4224",
-	wss: true
-});
+NATS.connect('wss://user:pass@localhost:4223');
 ```
 
 ## Advanced Usage
