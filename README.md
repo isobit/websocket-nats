@@ -15,7 +15,7 @@ Just download `dist/bundle.js`.
 
 For development purposes this can be loaded from github:
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/joshglendenning/websocket-nats/v0.1.0/dist/bundle.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/joshglendenning/websocket-nats/master/dist/bundle.js"></script>
 ```
 
 ## Prerequisites
