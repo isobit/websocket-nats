@@ -1,5 +1,5 @@
 # websocket-nats
-[![npm](https://img.shields.io/npm/v0.2.2/websocket-nats.svg)](https://www.npmjs.com/package/websocket-nats)
+[![npm](https://img.shields.io/npm/v/websocket-nats.svg)](https://www.npmjs.com/package/websocket-nats)
 [![License MIT](https://img.shields.io/npm/l/websocket-nats.svg)](http://opensource.org/licenses/MIT)
 
 An in-browser websocket client for [NATS](http://nats.io/), a lightweight, high-performance cloud native messaging system.
