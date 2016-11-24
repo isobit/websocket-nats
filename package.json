@@ -20,8 +20,7 @@
     "build": "webpack && npm run build:prod && npm run build:dev",
     "build:prod": "NODE_ENV=prod webpack",
     "build:dev": "NODE_ENV=dev webpack",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags"
+    "version": "npm run build && git add -A dist"
   },
   "browser": {
     "crypto": "./lib/crypto.js",
