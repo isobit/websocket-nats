@@ -1,6 +1,6 @@
 {
   "name": "websocket-nats",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An in-browser websocket client for [NATS](http://nats.io/), a lightweight, high-performance cloud native messaging system.",
   "keywords": [
     "websocket",
