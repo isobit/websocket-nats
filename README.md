@@ -11,12 +11,23 @@ An in-browser websocket client for [NATS](http://nats.io/), a lightweight, high-
 npm install websocket-nats
 ```
 
-### Bundle
-Just download `dist/bundle.js`.
+### CDN
+Normal, development, and minified versions of the bundle can obtained via [RawGit](http://rawgit.com/).
 
-For development purposes this can be loaded from github:
 ```html
-<script type="text/javascript" src="https://raw.githubusercontent.com/joshglendenning/websocket-nats/master/dist/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.js"></script>
+```
+
+Development (includes eval sourcemaps):
+
+```html
+<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.dev.js"></script>
+```
+
+Minified (for production use):
+
+```html
+<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.min.js"></script>
 ```
 
 ## Prerequisites
