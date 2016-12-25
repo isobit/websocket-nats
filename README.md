@@ -44,7 +44,7 @@ directly at your `gnatsd` instance.
 
 ```javascript
 
-var nats = require('nats').connect('ws://localhost:4223');
+var nats = require('websocket-nats').connect('ws://localhost:4223');
 
 // Simple Publisher
 nats.publish('foo', 'Hello World!');
@@ -116,7 +116,7 @@ nats.subscribe('foo', {'queue':'job.workers'}, function() {
 ## Clustered Usage
 
 ```javascript
-var nats = require('nats');
+var nats = require('websocket-nats');
 
 var servers = ['ws://nats.io:4222', 'ws://nats.io:5222', 'ws://nats.io:6222'];
 
@@ -180,7 +180,7 @@ nats.subscribe('foo', {'max':MAX_WANTED});
 nats.unsubscribe(sid, MAX_WANTED);
 
 // Multiple connections
-var nats = require('nats');
+var nats = require('websocket-nats');
 var nc1 = nats.connect();
 var nc2 = nats.connect();
 
