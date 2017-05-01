@@ -15,26 +15,26 @@ npm install websocket-nats
 Normal, development, and minified versions of the bundle can obtained via [RawGit](http://rawgit.com/).
 
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/isobit/websocket-nats/master/dist/websocket-nats.js"></script>
 ```
 
 Development (includes eval sourcemaps):
 
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.dev.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/isobit/websocket-nats/master/dist/websocket-nats.dev.js"></script>
 ```
 
 Minified (for production use):
 
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/joshglendenning/websocket-nats/master/dist/websocket-nats.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/isobit/websocket-nats/master/dist/websocket-nats.min.js"></script>
 ```
 
 ## Prerequisites
 
 You will need a Websocket-to-TCP proxy to connect to your `gnatsd` instance
 over websockets. You may provide your own or use
-[ws-tcp-relay](https://github.com/joshglendenning/ws-tcp-relay).
+[ws-tcp-relay](https://github.com/isobit/ws-tcp-relay).
 
 ## Basic Usage
 

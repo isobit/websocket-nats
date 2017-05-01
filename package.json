@@ -15,7 +15,7 @@
     "email": "josh@isobit.io"
   },
   "main": "index.js",
-  "repository": "joshglendenning/websocket-nats",
+  "repository": "isobit/websocket-nats",
   "scripts": {
     "build": "webpack && npm run build:prod && npm run build:dev",
     "build:prod": "NODE_ENV=prod webpack",
